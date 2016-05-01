@@ -36,6 +36,8 @@
 # Copyright 2016 Your name here, unless otherwise noted.
 #
 class ntpd {
-
-
+  package ntpd{
+    ensure => present,
+    service => enabled,
+ }
 }
